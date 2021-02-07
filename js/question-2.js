@@ -13,7 +13,7 @@ async function getGames() {
 
 		container.innerHTML = "";
 
-		for (i = 0; i < games.length; i++) {
+		for (let i = 0; i < games.length; i++) {
 			if (i === 8) {
 				break;
 			}
